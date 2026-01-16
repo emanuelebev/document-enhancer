@@ -1,0 +1,115 @@
+2026-01-16 22:17:53,227 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 22:17:53,228 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 22:17:53,433 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 22:17:53,433 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 22:17:58,668 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:17:58] "GET / HTTP/1.1" 200 -
+2026-01-16 22:17:58,701 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:17:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-01-16 22:17:58,701 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:17:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-16 22:18:27,002 - __main__ - INFO - Processing file: test_document.pdf (job_id: f5844ff3-527c-40a7-b5e7-62d2e6a221ee)
+2026-01-16 22:18:27,002 - enhancer - INFO - Processing PDF: uploads/f5844ff3-527c-40a7-b5e7-62d2e6a221ee_test_document.pdf
+2026-01-16 22:18:28,959 - enhancer - INFO - PDF: 3 pages
+2026-01-16 22:18:28,961 - enhancer - INFO - Page 1/3
+2026-01-16 22:18:29,152 - enhancer - INFO - Processing: 5482x7750 (mode: aggressive)
+2026-01-16 22:18:35,580 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:18:35,633 - enhancer - INFO - Page 2/3
+2026-01-16 22:18:35,851 - enhancer - INFO - Processing: 5482x7750 (mode: aggressive)
+2026-01-16 22:18:42,089 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:18:42,139 - enhancer - INFO - Page 3/3
+2026-01-16 22:18:42,323 - enhancer - INFO - Processing: 5482x7750 (mode: aggressive)
+2026-01-16 22:18:48,272 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:18:48,320 - enhancer - INFO - Creating PDF...
+2026-01-16 22:18:48,328 - enhancer - INFO - Saved: outputs/f5844ff3-527c-40a7-b5e7-62d2e6a221ee_enhanced.pdf
+2026-01-16 22:18:48,330 - __main__ - ERROR - Enhancement error: [Errno 2] No such file or directory: '/Users/bevacquae/Personal/document-enhancer/src/outputs/f5844ff3-527c-40a7-b5e7-62d2e6a221ee_enhanced.pdf'
+Traceback (most recent call last):
+  File "/Users/bevacquae/Personal/document-enhancer/src/api.py", line 114, in enhance_document
+    return send_file(
+           ^^^^^^^^^^
+  File "/Users/bevacquae/Personal/document-enhancer/venv/lib/python3.12/site-packages/flask/helpers.py", line 518, in send_file
+    return werkzeug.utils.send_file(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bevacquae/Personal/document-enhancer/venv/lib/python3.12/site-packages/werkzeug/utils.py", line 421, in send_file
+    stat = os.stat(path)
+           ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/bevacquae/Personal/document-enhancer/src/outputs/f5844ff3-527c-40a7-b5e7-62d2e6a221ee_enhanced.pdf'
+2026-01-16 22:18:48,334 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:18:48] "[35m[1mPOST /enhance HTTP/1.1[0m" 500 -
+2026-01-16 22:20:11,444 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 22:20:11,445 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 22:20:11,453 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 22:20:11,453 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 22:20:13,058 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:20:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-16 22:20:13,076 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:20:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-16 22:20:13,077 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:20:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-16 22:20:19,805 - __main__ - INFO - Processing file: test_document.pdf (job_id: b61c0902-7ec8-4c02-b3ef-00fcb9f0f1e2)
+2026-01-16 22:20:19,805 - enhancer - INFO - Processing PDF: /Users/bevacquae/Personal/document-enhancer/uploads/b61c0902-7ec8-4c02-b3ef-00fcb9f0f1e2_test_document.pdf
+2026-01-16 22:20:21,474 - enhancer - INFO - PDF: 3 pages
+2026-01-16 22:20:21,475 - enhancer - INFO - Page 1/3
+2026-01-16 22:20:21,653 - enhancer - INFO - Processing: 5482x7750 (mode: balanced)
+2026-01-16 22:20:28,424 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:20:28,537 - enhancer - INFO - Page 2/3
+2026-01-16 22:20:28,724 - enhancer - INFO - Processing: 5482x7750 (mode: balanced)
+2026-01-16 22:20:36,475 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:20:36,590 - enhancer - INFO - Page 3/3
+2026-01-16 22:20:36,885 - enhancer - INFO - Processing: 5482x7750 (mode: balanced)
+2026-01-16 22:20:43,214 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:20:43,324 - enhancer - INFO - Creating PDF...
+2026-01-16 22:20:43,401 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/b61c0902-7ec8-4c02-b3ef-00fcb9f0f1e2_enhanced.pdf
+2026-01-16 22:20:43,405 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:20:43] "POST /enhance HTTP/1.1" 200 -
+2026-01-16 22:21:14,827 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 22:21:14,828 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 22:21:14,836 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 22:21:14,836 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 22:25:02,596 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 22:25:02,598 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 22:25:02,619 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 22:25:02,619 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 22:25:05,421 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:25:05] "GET / HTTP/1.1" 200 -
+2026-01-16 22:25:05,452 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:25:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-16 22:25:05,453 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:25:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-16 22:25:13,057 - __main__ - INFO - Processing file: test_document.pdf (job_id: 10ab15b1-8b98-4bbc-8a3b-d268c0c69b41)
+2026-01-16 22:25:13,058 - enhancer - INFO - Processing PDF: /Users/bevacquae/Personal/document-enhancer/uploads/10ab15b1-8b98-4bbc-8a3b-d268c0c69b41_test_document.pdf
+2026-01-16 22:25:14,801 - enhancer - INFO - PDF: 3 pages
+2026-01-16 22:25:14,802 - enhancer - INFO - Page 1/3
+2026-01-16 22:25:15,054 - enhancer - INFO - Processing: 5482x7750 (mode: balanced)
+2026-01-16 22:25:21,457 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:25:21,638 - enhancer - INFO - Page 2/3
+2026-01-16 22:25:21,821 - enhancer - INFO - Processing: 5482x7750 (mode: balanced)
+2026-01-16 22:25:28,013 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:25:28,147 - enhancer - INFO - Page 3/3
+2026-01-16 22:25:28,400 - enhancer - INFO - Processing: 5482x7750 (mode: balanced)
+2026-01-16 22:25:34,287 - enhancer - INFO - Enhancement complete: 5482x7750
+2026-01-16 22:25:34,384 - enhancer - INFO - Creating PDF...
+2026-01-16 22:25:34,418 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/10ab15b1-8b98-4bbc-8a3b-d268c0c69b41_enhanced.pdf
+2026-01-16 22:25:34,422 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 22:25:34] "POST /enhance HTTP/1.1" 200 -
+2026-01-16 22:28:11,988 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 22:28:11,989 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 22:28:12,001 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 22:28:12,001 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 22:29:01,955 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 22:29:01,955 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 22:29:01,965 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 22:29:01,965 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 22:35:31,759 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 22:35:31,760 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 22:35:31,770 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 22:35:31,770 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Enhancer - Migliora Documenti Scannerizzati</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📄 Document Enhancer</h1>
+            <p>Migliora automaticamente la qualità di documenti scannerizzati</p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <div class="upload-area" id="uploadArea">
+                    <input type="file" id="fileInput" accept=".pdf,.jpg,.jpeg,.png,.tiff,.bmp" multiple hidden>
+                    <div class="upload-icon">📁</div>
+                    <p class="upload-text">Trascina file qui o clicca per selezionare</p>
+                    <p class="upload-hint">Supportati: PDF, JPG, PNG, TIFF, BMP • Multipli file supportati</p>
+                </div>
+
+                <div class="files-list" id="filesList"></div>
+                
+                <div class="files-actions" id="filesActions" hidden>
+                    <button class="add-more-btn" id="addMoreBtn">
+                        ➕ Aggiungi Altri File
+                    </button>
+                    <button class="clear-all-btn" id="clearAllBtn">
+                        🗑️ Rimuovi Tutti
+                    </button>
+                </div>
+            </div>
+
+            <div class="options-section">
+                <h3>⚙️ Opzioni Enhancement</h3>
+                <label class="option">
+                    <input type="checkbox" id="aggressiveMode">
+                    <span>Modalità Aggressiva</span>
+                    <small>Per scansioni molto vecchie o rovinate (applica binarizzazione)</small>
+                </label>
+                <label class="option">
+                    <input type="checkbox" id="autoCrop" checked>
+                    <span>Auto-crop bordi</span>
+                    <small>Rimuove automaticamente bordi bianchi/neri</small>
+                </label>
+                <div class="info-box">
+                    <strong>💡 Suggerimento:</strong> Lascia "Modalità Aggressiva" <strong>disattivata</strong> per la maggior parte dei documenti. Attivala solo per scansioni molto vecchie o illeggibili.
+                </div>
+            </div>
+
+            <button class="enhance-btn" id="enhanceBtn" disabled>
+                <span id="enhanceBtnText">Migliora Documenti</span>
+            </button>
+
+            <div class="progress-section" id="progressSection" hidden>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p class="progress-text" id="progressText">Elaborazione in corso...</p>
+            </div>
+
+            <div class="result-section" id="resultSection" hidden>
+                <div class="success-message">
+                    ✅ Documenti elaborati con successo!
+                </div>
+            </div>
+
+            <div class="error-section" id="errorSection" hidden>
+                <div class="error-message" id="errorMessage"></div>
+            </div>
+        </main>
+
+        <footer>
+            <a href="https://github.com/emanuelebev/document-enhancer" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
