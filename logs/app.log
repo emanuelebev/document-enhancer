@@ -113,3 +113,414 @@ FileNotFoundError: [Errno 2] No such file or directory: '/Users/bevacquae/Person
  * Running on http://127.0.0.1:5001
  * Running on http://10.111.4.157:5001
 2026-01-16 22:35:31,770 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 23:50:13,298 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 23:50:13,300 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 23:50:13,448 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 23:50:13,448 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 23:50:16,604 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:50:16] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-16 23:50:16,622 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:50:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-16 23:50:16,623 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:50:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-16 23:50:35,170 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: d8ffb79b-637e-403b-ad74-ff7a6e30d1da)
+2026-01-16 23:50:35,171 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/d8ffb79b-637e-403b-ad74-ff7a6e30d1da_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-16 23:50:35,223 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-16 23:50:35,253 - enhancer - INFO - Upscaled to: 2400x3200
+2026-01-16 23:50:36,541 - enhancer - INFO - Enhancement complete: 2400x3200
+2026-01-16 23:50:36,621 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/d8ffb79b-637e-403b-ad74-ff7a6e30d1da_enhanced.jpg
+2026-01-16 23:50:36,622 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:50:36] "POST /enhance HTTP/1.1" 200 -
+2026-01-16 23:51:01,881 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: cee36167-de4a-4bc1-8348-6aa610c6ea1f)
+2026-01-16 23:51:01,882 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/cee36167-de4a-4bc1-8348-6aa610c6ea1f_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-16 23:51:01,920 - enhancer - INFO - Processing: 1200x1600 (mode: aggressive)
+2026-01-16 23:51:01,953 - enhancer - INFO - Upscaled to: 2400x3200
+2026-01-16 23:51:03,279 - enhancer - INFO - Enhancement complete: 2400x3200
+2026-01-16 23:51:03,311 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/cee36167-de4a-4bc1-8348-6aa610c6ea1f_enhanced.jpg
+2026-01-16 23:51:03,312 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:51:03] "POST /enhance HTTP/1.1" 200 -
+2026-01-16 23:56:22,802 - enhancer - INFO - DocumentEnhancer initialized (AI: False, target_dpi: 300)
+2026-01-16 23:56:22,803 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 23:56:22,811 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 23:56:22,811 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 23:56:25,303 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:56:25] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-16 23:56:25,319 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:56:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-16 23:56:25,322 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:56:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-16 23:56:30,869 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 98de3814-3047-44e0-a29c-6e3989356052)
+2026-01-16 23:56:30,869 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/98de3814-3047-44e0-a29c-6e3989356052_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-16 23:56:30,928 - enhancer - INFO - Using bounding box crop: 1163x1459
+2026-01-16 23:56:30,928 - enhancer - INFO - Cropped 7.6% of image
+2026-01-16 23:56:30,929 - enhancer - INFO - Processing: 1183x1499 (mode: False)
+2026-01-16 23:56:30,930 - enhancer - INFO - Upscaled to: 2366x2998
+2026-01-16 23:56:32,328 - enhancer - INFO - Enhancement complete: 2366x2998
+2026-01-16 23:56:32,345 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/98de3814-3047-44e0-a29c-6e3989356052_enhanced.jpg
+2026-01-16 23:56:32,346 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:56:32] "POST /enhance HTTP/1.1" 200 -
+2026-01-16 23:57:52,464 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-16 23:57:52,466 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-16 23:57:52,474 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-16 23:57:52,474 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 23:57:55,703 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:57:55] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-16 23:57:55,715 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:57:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-16 23:57:55,717 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:57:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-16 23:58:17,749 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 21b30ab0-dca4-4df1-bc02-421fb23fa874)
+2026-01-16 23:58:17,749 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/21b30ab0-dca4-4df1-bc02-421fb23fa874_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-16 23:58:17,808 - enhancer - INFO - Using bounding box crop: 1163x1459
+2026-01-16 23:58:17,809 - enhancer - INFO - Cropped 7.6%
+2026-01-16 23:58:17,809 - enhancer - INFO - Processing: 1183x1499 (mode: balanced)
+2026-01-16 23:58:17,811 - enhancer - INFO - Upscaled to: 2366x2998
+2026-01-16 23:58:19,244 - enhancer - INFO - Enhancement complete: 2366x2998
+2026-01-16 23:58:19,259 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/21b30ab0-dca4-4df1-bc02-421fb23fa874_enhanced.jpg
+2026-01-16 23:58:19,260 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 23:58:19] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 00:02:58,961 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 00:02:58,961 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 00:02:58,970 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 00:02:58,970 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 00:03:01,229 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:03:01] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 00:03:01,242 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:03:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 00:03:01,243 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:03:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 00:03:06,183 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 35a9b86d-bb2a-4973-a1dc-e296d12a682f)
+2026-01-17 00:03:06,183 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/35a9b86d-bb2a-4973-a1dc-e296d12a682f_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 00:03:06,261 - enhancer - INFO - Fallback crop: 31.9% rimosso
+2026-01-17 00:03:06,292 - enhancer - INFO - Processing: 2533x3508 (mode: balanced)
+2026-01-17 00:03:07,990 - enhancer - INFO - Enhancement complete: 2533x3508
+2026-01-17 00:03:08,009 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/35a9b86d-bb2a-4973-a1dc-e296d12a682f_enhanced.jpg
+2026-01-17 00:03:08,009 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:03:08] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 00:05:05,558 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 00:05:05,559 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 00:05:05,567 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 00:05:05,567 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 00:05:07,261 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:05:07] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 00:05:07,271 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:05:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 00:05:07,274 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:05:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 00:05:13,654 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 470553b6-321f-4730-b175-1660e0f9949f)
+2026-01-17 00:05:13,654 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/470553b6-321f-4730-b175-1660e0f9949f_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 00:05:13,715 - enhancer - INFO - Cropped: 7.6%
+2026-01-17 00:05:13,716 - enhancer - INFO - Processing: 1183x1500 (mode: balanced)
+2026-01-17 00:05:13,743 - enhancer - INFO - Upscaled to: 2366x3000
+2026-01-17 00:05:14,977 - enhancer - INFO - Enhancement complete: 2366x3000
+2026-01-17 00:05:14,994 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/470553b6-321f-4730-b175-1660e0f9949f_enhanced.jpg
+2026-01-17 00:05:14,995 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 00:05:14] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:09:28,538 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:09:28,539 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:09:28,685 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:09:28,685 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:09:32,431 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:09:32] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:09:32,443 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:09:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:09:32,444 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:09:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:09:36,946 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: a227f371-7de9-49d3-a518-b4769883aed3)
+2026-01-17 12:09:36,947 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/a227f371-7de9-49d3-a518-b4769883aed3_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:09:37,005 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:09:37,015 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:09:37,015 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:09:37,295 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:09:37,299 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/a227f371-7de9-49d3-a518-b4769883aed3_enhanced.jpg
+2026-01-17 12:09:37,300 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:09:37] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:10:45,420 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 229e05f4-dbae-4cbf-94dd-ba6867d6b8e9)
+2026-01-17 12:10:45,420 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/229e05f4-dbae-4cbf-94dd-ba6867d6b8e9_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:10:45,452 - enhancer - INFO - Processing: 1200x1600 (mode: strong)
+2026-01-17 12:10:45,456 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:10:45,456 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:10:45,759 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:10:45,763 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/229e05f4-dbae-4cbf-94dd-ba6867d6b8e9_enhanced.jpg
+2026-01-17 12:10:45,764 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:10:45] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:11:46,169 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:11:46,170 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:11:46,177 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:11:46,177 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:11:47,606 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:11:47] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:11:47,617 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:11:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:11:47,617 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:11:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:11:52,124 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 69c80455-2e76-4241-b463-7702600886bd)
+2026-01-17 12:11:52,125 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/69c80455-2e76-4241-b463-7702600886bd_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:11:52,179 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:11:52,183 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:11:52,183 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:11:52,999 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:11:53,002 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/69c80455-2e76-4241-b463-7702600886bd_enhanced.jpg
+2026-01-17 12:11:53,003 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:11:53] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:13:21,708 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:13:21,709 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:13:21,716 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:13:21,716 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:13:23,370 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:13:23] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:13:23,388 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:13:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:13:23,390 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:13:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:13:27,454 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: bcfb78fd-cb7f-495b-acc4-55669a251508)
+2026-01-17 12:13:27,454 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/bcfb78fd-cb7f-495b-acc4-55669a251508_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:13:27,507 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:13:27,511 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:13:27,511 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:13:28,300 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:13:28,303 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/bcfb78fd-cb7f-495b-acc4-55669a251508_enhanced.jpg
+2026-01-17 12:13:28,303 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:13:28] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:17:00,250 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:17:00,250 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:17:00,257 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:17:00,257 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:17:01,662 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:17:01] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:17:01,674 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:17:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:17:01,675 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:17:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:17:04,923 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 171498cb-00c8-4b37-a7f1-c9da055f0cc2)
+2026-01-17 12:17:04,923 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/171498cb-00c8-4b37-a7f1-c9da055f0cc2_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:17:04,976 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:17:04,980 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:17:04,980 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:17:05,353 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:17:05,358 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/171498cb-00c8-4b37-a7f1-c9da055f0cc2_enhanced.jpg
+2026-01-17 12:17:05,359 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:17:05] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:18:10,277 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:18:10,278 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:18:10,286 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:18:10,286 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:18:13,217 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:18:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:18:13,234 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:18:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:18:13,236 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:18:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:18:17,318 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: e7faa658-2a0a-48a4-bcc2-6e1cadad0d4d)
+2026-01-17 12:18:17,318 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/e7faa658-2a0a-48a4-bcc2-6e1cadad0d4d_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:18:17,369 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:18:17,374 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:18:17,374 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:18:17,661 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:18:17,664 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/e7faa658-2a0a-48a4-bcc2-6e1cadad0d4d_enhanced.jpg
+2026-01-17 12:18:17,665 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:18:17] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:19:26,640 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:19:26,640 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:19:26,652 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:19:26,652 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:19:28,244 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:19:28] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:19:28,255 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:19:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:19:28,262 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:19:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:19:32,256 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: bbfdd53b-03f5-4fe6-9b00-8f929ae52ecb)
+2026-01-17 12:19:32,257 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/bbfdd53b-03f5-4fe6-9b00-8f929ae52ecb_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:19:32,307 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:19:32,311 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:19:32,312 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:19:33,099 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:19:33,101 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/bbfdd53b-03f5-4fe6-9b00-8f929ae52ecb_enhanced.jpg
+2026-01-17 12:19:33,102 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:19:33] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:21:29,486 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:21:29,486 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:21:29,495 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:21:29,495 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:21:30,980 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:21:30] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:21:30,999 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:21:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:21:30,999 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:21:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:21:36,722 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: b57ec36a-7c1f-49e6-9c6f-fb95112e3d1f)
+2026-01-17 12:21:36,722 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/b57ec36a-7c1f-49e6-9c6f-fb95112e3d1f_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:21:36,773 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:21:36,778 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:21:36,778 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:21:37,474 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:21:37,477 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/b57ec36a-7c1f-49e6-9c6f-fb95112e3d1f_enhanced.jpg
+2026-01-17 12:21:37,478 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:21:37] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:23:48,795 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:23:48,796 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:23:48,804 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:23:48,804 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:23:50,058 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:23:50] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:23:50,069 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:23:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:23:50,070 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:23:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:23:53,422 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 28a03312-7693-48ae-9193-b8245ec9ca99)
+2026-01-17 12:23:53,423 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/28a03312-7693-48ae-9193-b8245ec9ca99_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:23:53,473 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:23:53,478 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:23:53,478 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:23:53,772 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:23:53,776 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/28a03312-7693-48ae-9193-b8245ec9ca99_enhanced.jpg
+2026-01-17 12:23:53,776 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:23:53] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:25:32,579 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:25:32,580 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:25:32,588 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:25:32,588 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:25:34,199 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:25:34] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:25:34,207 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:25:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:25:34,209 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:25:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:25:37,631 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 3bd5de47-1c53-4343-ba61-36fc95bcb619)
+2026-01-17 12:25:37,632 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/3bd5de47-1c53-4343-ba61-36fc95bcb619_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:25:37,747 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:25:37,751 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:25:37,751 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:25:38,025 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:25:38,028 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/3bd5de47-1c53-4343-ba61-36fc95bcb619_enhanced.jpg
+2026-01-17 12:25:38,029 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:25:38] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:28:13,739 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:28:13,740 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:28:13,747 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:28:13,747 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:28:15,009 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:28:15] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:28:15,027 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:28:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:28:15,027 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:28:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:28:18,484 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: ab0b25c9-3693-4619-8db1-86f0546ddfb3)
+2026-01-17 12:28:18,485 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/ab0b25c9-3693-4619-8db1-86f0546ddfb3_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:28:18,535 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:28:18,539 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:28:18,539 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:28:18,820 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:28:18,824 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/ab0b25c9-3693-4619-8db1-86f0546ddfb3_enhanced.jpg
+2026-01-17 12:28:18,825 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:28:18] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:29:25,830 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:29:25,831 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:29:25,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:29:25,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:29:27,577 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:29:27] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:29:27,589 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:29:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:29:27,590 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:29:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:29:32,458 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: a904df94-a09e-4129-a82b-3d5f8a28e591)
+2026-01-17 12:29:32,458 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/a904df94-a09e-4129-a82b-3d5f8a28e591_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:29:32,513 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:29:32,517 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:29:32,517 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:29:32,803 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:29:32,807 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/a904df94-a09e-4129-a82b-3d5f8a28e591_enhanced.jpg
+2026-01-17 12:29:32,808 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:29:32] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:31:03,944 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:31:03,945 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:31:03,953 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:31:03,954 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:31:05,069 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:31:05] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:31:05,083 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:31:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:31:05,089 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:31:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:31:09,445 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 0e3ecb2f-f3fb-4660-8d6e-f2e20ca14fe7)
+2026-01-17 12:31:09,446 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/0e3ecb2f-f3fb-4660-8d6e-f2e20ca14fe7_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:31:09,494 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:31:09,498 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:31:09,498 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:31:09,793 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:31:09,796 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/0e3ecb2f-f3fb-4660-8d6e-f2e20ca14fe7_enhanced.jpg
+2026-01-17 12:31:09,797 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:31:09] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:33:12,384 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:33:12,385 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:33:12,392 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:33:12,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:33:13,660 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:33:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:33:13,671 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:33:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:33:13,672 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:33:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:33:17,134 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: d996cbd9-e17e-4abe-a9c9-98f911379e8c)
+2026-01-17 12:33:17,134 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/d996cbd9-e17e-4abe-a9c9-98f911379e8c_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:33:17,187 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:33:17,192 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:33:17,192 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:33:17,494 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:33:17,498 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/d996cbd9-e17e-4abe-a9c9-98f911379e8c_enhanced.jpg
+2026-01-17 12:33:17,499 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:33:17] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:34:50,872 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:34:50,872 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:34:50,998 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:34:50,998 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:34:52,203 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:34:52] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:34:52,223 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:34:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:34:52,224 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:34:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:34:55,833 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: bb76d89f-f4d9-4161-8df9-69123d66cff0)
+2026-01-17 12:34:55,834 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/bb76d89f-f4d9-4161-8df9-69123d66cff0_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:34:55,885 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:34:55,889 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:34:55,889 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:34:56,159 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:34:56,162 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/bb76d89f-f4d9-4161-8df9-69123d66cff0_enhanced.jpg
+2026-01-17 12:34:56,163 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:34:56] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:36:33,413 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:36:33,414 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:36:33,431 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:36:33,431 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:36:34,365 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:36:34] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:36:34,380 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:36:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:36:34,382 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:36:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:36:40,403 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 78844ab7-60bf-4f3b-bd53-3b5d58f47d6d)
+2026-01-17 12:36:40,403 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/78844ab7-60bf-4f3b-bd53-3b5d58f47d6d_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:36:40,458 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:36:40,462 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:36:40,462 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:36:40,739 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:36:40,742 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/78844ab7-60bf-4f3b-bd53-3b5d58f47d6d_enhanced.jpg
+2026-01-17 12:36:40,742 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:36:40] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:38:20,551 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:38:20,552 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:38:20,560 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:38:20,560 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:38:22,279 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:38:22] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:38:22,290 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:38:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:38:22,292 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:38:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:38:25,964 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 2b7d789b-3b2d-4f9d-b81e-cab61674ee10)
+2026-01-17 12:38:25,964 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/2b7d789b-3b2d-4f9d-b81e-cab61674ee10_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:38:26,017 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:38:26,022 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:38:26,022 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:38:26,304 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:38:26,306 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/2b7d789b-3b2d-4f9d-b81e-cab61674ee10_enhanced.jpg
+2026-01-17 12:38:26,307 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:38:26] "POST /enhance HTTP/1.1" 200 -
+2026-01-17 12:39:17,860 - enhancer - INFO - DocumentEnhancer initialized (target_dpi: 300)
+2026-01-17 12:39:17,860 - __main__ - INFO - Starting Document Enhancer on 0.0.0.0:5001
+2026-01-17 12:39:17,869 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.111.4.157:5001
+2026-01-17 12:39:17,869 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 12:39:19,082 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:39:19] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-17 12:39:19,091 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:39:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-17 12:39:19,091 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:39:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-01-17 12:39:22,309 - __main__ - INFO - Processing file: WhatsApp_Image_2026-01-16_at_23.42.07.jpeg (job_id: 12fa6cea-e204-4390-95bc-41ab3a31de0d)
+2026-01-17 12:39:22,309 - enhancer - INFO - Processing: /Users/bevacquae/Personal/document-enhancer/uploads/12fa6cea-e204-4390-95bc-41ab3a31de0d_WhatsApp_Image_2026-01-16_at_23.42.07.jpeg
+2026-01-17 12:39:22,352 - enhancer - INFO - Processing: 1200x1600 (mode: balanced)
+2026-01-17 12:39:22,356 - enhancer - INFO - Document found: 4 corners
+2026-01-17 12:39:22,357 - enhancer - INFO - Applying perspective transform
+2026-01-17 12:39:22,636 - enhancer - INFO - Enhancement complete: 946x1324
+2026-01-17 12:39:22,640 - enhancer - INFO - Saved: /Users/bevacquae/Personal/document-enhancer/outputs/12fa6cea-e204-4390-95bc-41ab3a31de0d_enhanced.jpg
+2026-01-17 12:39:22,640 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2026 12:39:22] "POST /enhance HTTP/1.1" 200 -
